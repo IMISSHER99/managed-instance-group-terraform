@@ -1,5 +1,6 @@
 variable "project_id" {}
 variable "project_region" {}
+variable "project_zone" {}
 variable "vpc_name" {}
 variable "route_mode" {}
 variable "ip_cidr_range" {}
@@ -17,3 +18,8 @@ variable "compute_instance_description" {}
 variable "compute_instance_label" {}
 variable "machine_type" {}
 variable "source_image" {}
+variable "health-check" {}
+variable "managed-instance-group" {}
+variable "base_instance_name" {}
+variable "instance_group_description" {}
+variable "autoscaler-policy" {}
